@@ -64,7 +64,7 @@ html {
   }
 
   .section-header {
-    text-align: var(--coler-primary);
+    text-align: var(--section-header-align);
   }
   
   .section-tagline {
