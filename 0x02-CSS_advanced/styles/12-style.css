@@ -54,10 +54,22 @@ html {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
-  
-  a {
+
+  a:link {
     color: var(--text-color);
     text-decoration: none;
+  }
+  
+  a:visited {
+    font-style: italic;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    background-color: var(--color-light-grey);
   }
   
   .visually-hidden {
